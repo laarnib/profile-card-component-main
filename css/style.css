@@ -1,4 +1,67 @@
 body, html {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: hsl(185, 75%, 39%);
+    width: 1440px;
+}
+
+.profile {
+    width: 400px;
+    background-color: white;
+    border-radius: 3.5%;
+}
+
+.bg-card {
+    width: 100%;
+    border-top-left-radius: 3.5%;
+    border-top-right-radius: 3.5%;
+}
+
+.profile-picture {
+    border-radius:50%;
+    margin: -10% auto auto auto;
+    border: 6px solid white;
+}
+
+.profile-name .profile-stats {
+    font-size: 18px;
+}
+
+.profile-name {
+    text-align: center;
+}
+
+.age, .location{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+.age {
+    margin-left: 0.5em;
+}
+
+.location {
+    margin-top: 1em;
+}
+
+.profile-stats {
+    border-top: 0.10px solid hsl(227, 10%, 80%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.stats {
+    margin: 1rem 0;
+    width: 30%;
+}
+
+.profile-stats div h2, .profile-stats div p{
+    text-align: center;
+}
+
+.stats p {
+    font-weight: 400px;
+    font-size: 0.75em;
+    color: hsl(227, 10%, 46%);
+    letter-spacing: 0.25em;
 }
